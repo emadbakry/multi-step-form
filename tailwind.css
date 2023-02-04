@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .sidebar {
+        @apply min-h-[130px] bg-no-repeat bg-center bg-cover bg-pattern md:bg-pattern_desktop;
+    }
+    .n {
+        @apply font-medium text-white p-2 border flex justify-center items-center border-gray-200 rounded-full w-6 h-6;
+    }
+    .step_num.cur .n {
+        @apply bg-[#bfe2fd] text-[#02295a] ;
+    }
+    .heading h2 {
+        @apply font-bold text-2xl my-3 ;
+    }
+    .heading p {
+        @apply pb-3 pr-10 text-gray-400 md:p-0;
+    }
+    .plan, .add_on {
+        @apply flex border-gray-200 border-2 cursor-pointer rounded-md items-center;
+    }
+    .toggle_btn > span{
+        @apply translate-x-[15px];
+    }
+    .toggle_clr  span.month {
+        @apply text-gray-500 ;
+    }
+    .toggle_clr  span.year {
+        @apply text-gray-900 ;
+    }
+    .plan.active, .add_on.active {
+        @apply border-gray-400;
+    }
+    #back_btn.active {
+        @apply visible;
+    }
+    #next_btn.confirm_btn {
+        @apply bg-blue-900;
+    }
+}
+
