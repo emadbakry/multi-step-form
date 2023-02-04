@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "multi-step_form",
+  "homepage": "https://emadbakry.github.io/multi-step-form/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

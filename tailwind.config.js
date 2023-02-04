@@ -11,6 +11,7 @@ module.exports = {
       backgroundImage: {
         pattern: "url('./assets/images/bg-sidebar-mobile.svg')",
         pattern_desktop: "url('./assets/images/bg-sidebar-desktop.svg')",
+        check_mark: "url('./assets/images/icon-checkmark.svg')",
       },
     },
   },

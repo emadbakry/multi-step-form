@@ -264,7 +264,7 @@ function App() {
                       </div>
                       <div className="add_on py-1 my-3">
                         <div className="check_box p-4">
-                          <input
+                          <input className='pointer-none'
                             required
                             title="three"
                             id="three"

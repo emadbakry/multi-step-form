@@ -42,5 +42,8 @@
     #next_btn.confirm_btn {
         @apply bg-blue-900;
     }
+    .add_ons .add_on label{
+        @apply before:opacity-50 relative before:w-8 before:h-8 before:content-[''] before:absolute before:-translate-y-1/2 before:-left-8 before:top-1/2 before:bg-transparent
+    }
 }
 
